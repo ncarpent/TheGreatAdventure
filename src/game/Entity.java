@@ -22,12 +22,6 @@ public record Entity(String name, int x, int y, Kind kind, int health, int damag
 		}
 	}
 	
-	@Override
-	public Kind kind() {
-		return kind;
-	}
-	
-	
 	
 	
 }

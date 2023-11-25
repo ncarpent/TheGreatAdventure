@@ -1,4 +1,4 @@
-package fr.uge.map;
+package game;
 
 import java.util.Objects;
 

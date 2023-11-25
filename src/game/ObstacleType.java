@@ -1,4 +1,4 @@
-package fr.uge.map;
+package game;
 
 public enum ObstacleType {
 	BED, BOG, BOMB, BRICK, CHAIR, CLIFF, DOOR, FENCE,

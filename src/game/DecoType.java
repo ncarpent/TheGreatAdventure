@@ -1,4 +1,4 @@
-package fr.uge.map;
+package game;
 
 public enum DecoType {
 	ALGAE, CLOUD, FLOWER, FOLIAGE, GRASS, 

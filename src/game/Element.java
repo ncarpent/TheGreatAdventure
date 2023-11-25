@@ -1,4 +1,4 @@
-package fr.uge.map;
+package game;
 
 public interface Element {
 	public abstract Kind kind() ;

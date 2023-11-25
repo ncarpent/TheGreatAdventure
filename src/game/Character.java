@@ -14,3 +14,4 @@ public record Character(String name, boolean isPlayer, int health, int x, int y)
 		
 	}
 }
+ 

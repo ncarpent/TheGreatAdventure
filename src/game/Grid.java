@@ -17,7 +17,7 @@ public class Grid {
 		}
 		if (height < 0) {
 			throw new IllegalArgumentException("negativ height.");
-		}
+		} 
 		Objects.requireNonNull(m);
 		Objects.requireNonNull(l);
 		this.width = width;

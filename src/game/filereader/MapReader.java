@@ -29,7 +29,7 @@ public class MapReader {
 		dimentions.forEach(s -> val.add(Integer.parseInt(s)));
 		return val;
 	}
-	
+	 
 }
 
 // à supprimer

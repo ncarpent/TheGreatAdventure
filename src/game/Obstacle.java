@@ -11,8 +11,5 @@ public record Obstacle(ObstacleType obstacle, int x, int y, Kind kind) implement
 		}
 		
 	}
-	@Override
-	public Kind kind() {
-		return kind;
-	}
+
 }

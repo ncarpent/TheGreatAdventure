@@ -16,8 +16,5 @@ public record Weapon(String name, WeaponType weapon, int x, int y, Kind kind, in
 		}
 	}
 	
-	@Override
-	public Kind kind() {
-		return kind;
-	}
+
 }

@@ -26,7 +26,7 @@ public class MapReader {
 		line = line.substring(7, line.length()-1);
 		var dimentions = Arrays.asList(line.split("x"));
 		ArrayList<Integer> val = new ArrayList<>();
-		dimentions.forEach(s -> val.add(Integer.parseInt(s)));
+		dimentions.forEach(s -> val.add(Integer.parseInt(s))); 
 		return val;
 	}
 	 

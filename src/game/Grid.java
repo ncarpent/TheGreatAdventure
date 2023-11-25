@@ -26,6 +26,6 @@ public class Grid {
 		data = l; // à revoir
 	}
 }
-
+ 
 // à supprimer
 //class Tile {}

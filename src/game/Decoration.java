@@ -2,7 +2,7 @@ package game;
 
 import java.util.Objects;
 
-public record Decoration(DecoTyped deco, int x, int y) implements Element{
+public record Decoration(DecoType deco, int x, int y) implements Element{
 	public Decoration{
 		Objects.requireNonNull(deco);
 

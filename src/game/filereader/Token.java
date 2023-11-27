@@ -23,6 +23,6 @@ public enum Token {
 
     public String getRegex() {
       return regex;
-    }
+    } 
     
 }

@@ -1,5 +1,5 @@
 package game;
 
-public record Tile (String name) {
+public record Tile (String name) { 
   
 }

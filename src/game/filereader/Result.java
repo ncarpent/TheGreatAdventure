@@ -9,4 +9,4 @@ public record Result(Token token, String content) {
       Objects.requireNonNull(content);
     }
     
-}
+} 

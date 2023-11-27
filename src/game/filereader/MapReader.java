@@ -69,7 +69,7 @@ public class MapReader {
 	  String line = "size: (6 x 5)";
     System.out.println("size" + importDimentions(line));
     String enc = "encodings: WALL(W) BRICK(B) FENCE(F)";
-    System.out.println("enc" + importEncoding(enc));
+    System.out.println("enc" + importEncoding(enc)); 
   }
 	 
 }

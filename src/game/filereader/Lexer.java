@@ -57,6 +57,6 @@ public class Lexer {
     while((result = lexer.nextResult()) != null) {
       System.out.println(result);
     }
-  }
+  } 
   
 }

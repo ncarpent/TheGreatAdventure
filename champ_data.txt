@@ -1,0 +1,7 @@
+	data: """
+	WWWWWW
+	W    W
+	W FF W
+	B    B
+	BBBBBB
+	"""

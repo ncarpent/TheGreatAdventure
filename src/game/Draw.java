@@ -5,15 +5,19 @@ import java.awt.Image;
 import java.util.EnumMap;
 import java.util.Objects;
 public class Draw {
-	private static final EnumMap<ObstacleType, Image> obstaclesImages = new EnumMap<>();
-	private static final EnumMap<DecoType, Image> obstaclesImages = new EnumMap<>(); 
-	private static final EnumMap<WeaponType, Image> obstaclesImages = new EnumMap<>();
+	private final Double ELEMENTPROPORTION = 1 / 10.0;
+	private final Double XCELL = width * ELEMENTPROPORTION;
+	private final Double YCELL = heigth * ELEMENTPROPORTION;
+	private static final EnumMap<ObstacleType, Image> obstaclesImages = new EnumMap<>(ObstacleType.class);
+	private static final EnumMap<DecoType, Image> obstaclesImages = new EnumMap<>(DecoType.class); 
+	private static final EnumMap<WeaponType, Image> obstaclesImages = new EnumMap<>(WeaponType.class);
 	
 	public void drawElements(Graphics2D graphics, GameMap map){
 		
 	}
 	
 	public void draw(Graphics2D graphics, Element element){
+		
 		Objects.requireNonNull(element);
 		Objects.requireNonNull(graphics);
 		switch(element){
@@ -27,6 +31,7 @@ public class Draw {
 	private static void drawObstacle(Graphics2D graphics, Obstacle obstacle) {
 		Objects.requireNonNull(obstacle);
 		Objects.requireNonNull(graphics);
+		
 		var image = obstaclesImages.get(obstacle.obstacle());
 		graphics.drawImage(image, obstacle.x() * 24, obstacle.y() * 24, null);
 	}

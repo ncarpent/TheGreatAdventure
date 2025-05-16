@@ -1,0 +1,8 @@
+# Déclare les fichiers Java comme détectables
+*.java linguist-detectable=true
+
+# Ignore les fichiers HTML des statistiques de langage
+*.html linguist-detectable=false
+
+# Optionnel : si tu as des fichiers Markdown/doc
+*.md linguist-documentation
